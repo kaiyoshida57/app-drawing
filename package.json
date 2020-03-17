@@ -1,0 +1,36 @@
+{
+  "name": "app-drawing",
+  "version": "1.0.0",
+  "description": "How to Use\r $ git clone https://github.com/kaiyoshida57/app-drawing",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-webserver": "^0.9.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "imagemin-pngquant": "^8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiyoshida57/app-drawing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaiyoshida57/app-drawing/issues"
+  },
+  "homepage": "https://github.com/kaiyoshida57/app-drawing#readme"
+}

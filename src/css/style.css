@@ -1,0 +1,111 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'Segoe UI Black', sans-serif;
+}
+
+.drawing {
+  display: flex;
+  align-items: flex-start;
+}
+
+.nav {
+  width: 250px;
+  flex: 0 1 250px;
+  border-right: solid 1px #fff;
+  background: #333;
+  height: 100vh;
+  padding: 30px 0 0;
+}
+
+.nav_listItem {
+  padding: 0 0 0 2em;
+}
+
+.nav_listItem + .nav_listItem {
+  margin: 20px 0 0;
+}
+
+.nav_listItem a {
+  color: #fff;
+  text-decoration: none;
+  transition: all .3s;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI Black';
+}
+
+.nav_listItem a:hover {
+  color: #999999;
+}
+
+.nav_text {
+  color: #9cdcfe;
+  padding: 30px 30px 0 2em;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.main {
+  padding: 30px 0 0 30px;
+  display: flex;
+  width: 100%;
+}
+
+.main_sec1 {
+  width: 400px;
+  flex: 0 1 400px;
+}
+
+#canvas {
+  border: solid 1px #333;
+}
+
+.main_sec2 {
+  width: 400px;
+  padding: 0 0 0 50px;
+}
+
+h1 {
+  font-size: 30px;
+  border-bottom: 2px solid #9cdcfe;
+  padding: 0 0 10px;
+}
+
+.introduction {
+  margin: 10px 0 0;
+  padding: 0 0 20px;
+  color: #333;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.introduction > span {
+  font-size: 16px;
+}
+
+.option {
+  width: 250px;
+}
+
+.color > a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.red {
+  background-color: #ff0000;
+}
+
+.blue {
+  background-color: #0000ff;
+}

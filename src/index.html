@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>絵描きアプリ drawing</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="drawing">
+    <aside class="nav">
+        <ul class="nav_list">
+          
+          <li class="nav_listItem"><a href="./">・Home</a></li>
+          
+        </ul>
+        <p class="nav_text">JavaScriptの練習のページです。</p>
+        <p class="nav_text"></p>
+  
+      </aside>
+    <main class="main">
+
+      <section class="main_sec1">
+        <h1>お絵かきアプリ</h1>
+        <p class="introduction">お絵かきアプリです。<br>
+          ドラッグで線を描けます。<br><span>（PC専用なのでご注意ください）<span></p>
+
+        <canvas id="canvas" width="400px" height="400px"></canvas>
+        <button id="pencil" width="35px" class="active" onClick="tool(1)">ぺん</button>
+        <button id="eraser" width="35px" class="active" onClick="tool(2)">けしごむ</button>
+        <label>色:<input id="color" type="color"></label>
+        <label>太さ:<input id="width" type="number" min="1" max="30"></label>
+        <input type="button" id="delete_canvas" value="クリア" onClick="delete_canvas()">
+        <button id="download_button">ダウンロードする</button>
+        <!--ダウンロード用リンク -->
+        <a id="download_link"></a>
+
+      </section>
+
+      <!-- <section class="main_sec2">
+        <div class="main_sec2_box">
+
+        </div>
+      </section> -->
+    </main>
+    
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
